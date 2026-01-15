@@ -1,0 +1,15 @@
+# private overlay (not exported)
+private/
+
+# dependencies
+**/node_modules/
+
+# local caches
+**/.cache/
+**/cache/
+
+# logs
+**/*.log
+
+# OS cruft
+.DS_Store
