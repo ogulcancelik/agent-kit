@@ -1,4 +1,4 @@
-# agents workspace
+# agent-kit
 
 A small collection of local-first agent skills, prompts, and optional pi-agent tooling.
 
@@ -49,6 +49,8 @@ This repo also includes the underlying script so you can run it directly:
 ```bash
 bun ./pi/bin/pi-consult.ts ask -m "opencode:gpt-5.2" "Your question here"
 ```
+
+Optional (pi): `pi/extensions/consult-status.ts` shows a small UI status indicator while consult runs.
 
 ## License
 
